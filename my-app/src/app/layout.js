@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-// import Signup from "./Signup";
-// import Login from "./Login";
+import Signup from "./Signup";
+import Login from "./Login";
 import Chatdash from "@/Components/Chatdash";
 
 
@@ -27,9 +27,8 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
        
-       {/* <Signup/>
-      <Login/> */}
       <Chatdash/>
+     
       </body>
     </html>
   );
